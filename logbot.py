@@ -374,8 +374,8 @@ class Logbot(SingleServerIRCBot):
         """Someone says /me"""
         self.write_event("action", e)
 
-    def on_join(self, c, e):
-        self.write_event("join", e)
+    # def on_join(self, c, e):
+    #     self.write_event("join", e)
 
     def on_kick(self, c, e):
         self.write_event("kick", e,
@@ -403,8 +403,8 @@ class Logbot(SingleServerIRCBot):
                               "%chan%": chan,
                              })
 
-    def on_part(self, c, e):
-        self.write_event("part", e)
+    # def on_part(self, c, e):
+    #     self.write_event("part", e)
 
     def on_pubmsg(self, c, e):
         if e.arguments()[0].startswith(NICK):
@@ -421,9 +421,9 @@ class Logbot(SingleServerIRCBot):
     def on_quit(self, c, e):
         nick = nm_to_n(e.source())
         # Only write the event on channels that actually had the user in the channel
-        for chan in self.channels:
-            if nick in [x.lstrip('~%&@+') for x in self.channels[chan].users()]:
-                self.write_event("quit", e, {"%chan%" : chan})
+        # for chan in self.channels:
+        #     if nick in [x.lstrip('~%&@+') for x in self.channels[chan].users()]:
+        #         self.write_event("quit", e, {"%chan%" : chan})
 
     def on_topic(self, c, e):
         self.write_event("topic", e)
