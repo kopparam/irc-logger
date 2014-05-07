@@ -1,0 +1,418 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>#openstack-101 | Logs for 2014-05-07</title>
+    <style type="text/css">
+        body {
+            background-color: #F8F8FF;
+            font-family: Fixed, monospace;
+            font-size: 13px;
+        }
+        h1 {
+            font-family: sans-serif;
+            font-size: 24px;
+            text-align: center;
+        }
+        a, .time {
+            color: #525552;
+            text-decoration: none;
+        }
+        a:hover, .time:hover { text-decoration: underline; }
+        .person { color: #DD1144; }
+        .join, .part, .quit, .kick, .mode, .topic, .nick { color: #42558C; }
+        .notice { color: #AE768C; }
+    </style>
+  </head>
+  <body>
+  <h1>#openstack-101 | Logs for 2014-05-07</h1>
+  <a href="..">Back</a><br />
+<a href="#00:10:44" name="00:10:44" class="time">[00:10:44]</a> -!- <span class="part">richm</span> [richm!~richm@c-76-113-106-251.hsd1.nm.comcast.net] has parted #openstack-101
+<br />
+<a href="#00:16:54" name="00:16:54" class="time">[00:16:54]</a> -!- <span class="quit">ams0</span> has quit [Read error: Connection reset by peer]
+<br />
+<a href="#00:18:48" name="00:18:48" class="time">[00:18:48]</a> -!- <span class="join">ams0</span> [ams0!~ams0@bzq-218-90-50.red.bezeqint.net] has joined #openstack-101
+<br />
+<a href="#00:30:33" name="00:30:33" class="time">[00:30:33]</a> -!- <span class="join">jistr</span> [jistr!~jistr@ip-94-112-36-166.net.upcbroadband.cz] has joined #openstack-101
+<br />
+<a href="#00:35:43" name="00:35:43" class="time">[00:35:43]</a> -!- <span class="join">jcoufal</span> [jcoufal!~jcoufal@ip-78-45-120-202.net.upcbroadband.cz] has joined #openstack-101
+<br />
+<a href="#00:36:10" name="00:36:10" class="time">[00:36:10]</a> -!- <span class="quit">caleb_</span> has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz…]
+<br />
+<a href="#00:43:07" name="00:43:07" class="time">[00:43:07]</a> -!- <span class="quit">IlyaE</span> has quit [Quit: Computer has gone to sleep.]
+<br />
+<a href="#00:43:45" name="00:43:45" class="time">[00:43:45]</a> -!- <span class="quit">lisaclark1</span> has quit [Quit: Leaving.]
+<br />
+<a href="#00:46:53" name="00:46:53" class="time">[00:46:53]</a> -!- <span class="join">lisaclark1</span> [lisaclark1!~Adium@50.56.228.68] has joined #openstack-101
+<br />
+<a href="#00:53:02" name="00:53:02" class="time">[00:53:02]</a> -!- <span class="quit">yrabl__</span> has quit [Read error: Connection reset by peer]
+<br />
+<a href="#00:53:19" name="00:53:19" class="time">[00:53:19]</a> -!- <span class="join">yrabl</span> [yrabl!~yrabl@bzq-79-182-10-136.red.bezeqint.net] has joined #openstack-101
+<br />
+<a href="#00:54:22" name="00:54:22" class="time">[00:54:22]</a> -!- <span class="quit">lisaclark1</span> has quit [Quit: Leaving.]
+<br />
+<a href="#00:58:49" name="00:58:49" class="time">[00:58:49]</a> -!- <span class="join">caleb_</span> [caleb_!~textual@50.56.228.68] has joined #openstack-101
+<br />
+<a href="#01:01:32" name="01:01:32" class="time">[01:01:32]</a> -!- <span class="quit">ams0</span> has quit [Read error: Connection reset by peer]
+<br />
+<a href="#01:01:36" name="01:01:36" class="time">[01:01:36]</a> -!- <span class="join">ams0_</span> [ams0_!~ams0@bzq-218-90-50.red.bezeqint.net] has joined #openstack-101
+<br />
+<a href="#01:03:53" name="01:03:53" class="time">[01:03:53]</a> -!- <span class="join">caleb_`</span> [caleb_`!~textual@50.56.228.68] has joined #openstack-101
+<br />
+<a href="#01:03:57" name="01:03:57" class="time">[01:03:57]</a> -!- <span class="quit">caleb_</span> has quit [Ping timeout: 265 seconds]
+<br />
+<a href="#01:04:24" name="01:04:24" class="time">[01:04:24]</a> -!- <span class="quit">scollier</span> has quit [Ping timeout: 276 seconds]
+<br />
+<a href="#01:12:16" name="01:12:16" class="time">[01:12:16]</a> -!- <span class="join">scollier</span> [scollier!~scollier@75-43-21-236.lightspeed.austtx.sbcglobal.net] has joined #openstack-101
+<br />
+<a href="#01:14:01" name="01:14:01" class="time">[01:14:01]</a> -!- <span class="join">lisaclark1</span> [lisaclark1!Adium@nat/rackspace/x-dqkjqnuyvumiewhm] has joined #openstack-101
+<br />
+<a href="#01:20:45" name="01:20:45" class="time">[01:20:45]</a> -!- <span class="join">IlyaE</span> [IlyaE!~ilyae@12.164.168.117] has joined #openstack-101
+<br />
+<a href="#01:20:54" name="01:20:54" class="time">[01:20:54]</a> -!- <span class="quit">zenoway</span> has quit [Remote host closed the connection]
+<br />
+<a href="#01:21:26" name="01:21:26" class="time">[01:21:26]</a> -!- <span class="join">zenoway</span> [zenoway!~zenoway@46.39.46.194] has joined #openstack-101
+<br />
+<a href="#01:25:59" name="01:25:59" class="time">[01:25:59]</a> -!- <span class="quit">zenoway</span> has quit [Ping timeout: 255 seconds]
+<br />
+<a href="#01:28:29" name="01:28:29" class="time">[01:28:29]</a> -!- <span class="join">zenoway</span> [zenoway!~zenoway@46.39.46.194] has joined #openstack-101
+<br />
+<a href="#01:29:36" name="01:29:36" class="time">[01:29:36]</a> -!- <span class="join">yrabl_</span> [yrabl_!~yrabl@bzq-79-182-10-136.red.bezeqint.net] has joined #openstack-101
+<br />
+<a href="#01:33:27" name="01:33:27" class="time">[01:33:27]</a> -!- <span class="quit">yrabl</span> has quit [Ping timeout: 265 seconds]
+<br />
+<a href="#01:34:24" name="01:34:24" class="time">[01:34:24]</a> -!- <span class="quit">jpomero</span> has quit [Quit: Leaving]
+<br />
+<a href="#01:35:32" name="01:35:32" class="time">[01:35:32]</a> -!- <span class="quit">jistr</span> has quit [Quit: Leaving]
+<br />
+<a href="#01:36:19" name="01:36:19" class="time">[01:36:19]</a> -!- <span class="quit">jcoufal</span> has quit []
+<br />
+<a href="#01:36:23" name="01:36:23" class="time">[01:36:23]</a> -!- <span class="quit">caleb_`</span> has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz…]
+<br />
+<a href="#01:39:07" name="01:39:07" class="time">[01:39:07]</a> -!- <span class="join">caleb_</span> [caleb_!~textual@50.56.228.68] has joined #openstack-101
+<br />
+<a href="#01:42:30" name="01:42:30" class="time">[01:42:30]</a> -!- <span class="quit">ams0_</span> has quit [Read error: Connection reset by peer]
+<br />
+<a href="#01:44:20" name="01:44:20" class="time">[01:44:20]</a> -!- <span class="quit">jprovazn</span> has quit [Quit: Odcházím]
+<br />
+<a href="#01:50:39" name="01:50:39" class="time">[01:50:39]</a> -!- <span class="join">qba73</span> [qba73!~qba73@79.97.182.60] has joined #openstack-101
+<br />
+<a href="#01:50:50" name="01:50:50" class="time">[01:50:50]</a> -!- <span class="quit">qba73</span> has quit [Remote host closed the connection]
+<br />
+<a href="#01:52:13" name="01:52:13" class="time">[01:52:13]</a> -!- <span class="join">ams0</span> [ams0!~ams0@bzq-218-90-50.red.bezeqint.net] has joined #openstack-101
+<br />
+<a href="#01:57:12" name="01:57:12" class="time">[01:57:12]</a> -!- <span class="quit">shanturoy</span> has quit [Ping timeout: 252 seconds]
+<br />
+<a href="#02:02:21" name="02:02:21" class="time">[02:02:21]</a> -!- <span class="quit">lisaclark1</span> has quit [Quit: Leaving.]
+<br />
+<a href="#02:04:15" name="02:04:15" class="time">[02:04:15]</a> -!- <span class="join">lisaclark1</span> [lisaclark1!Adium@nat/rackspace/x-sbiijrfltzjrdqno] has joined #openstack-101
+<br />
+<a href="#02:05:41" name="02:05:41" class="time">[02:05:41]</a> -!- <span class="quit">julim</span> has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz…]
+<br />
+<a href="#02:07:27" name="02:07:27" class="time">[02:07:27]</a> -!- <span class="join">freyes_</span> [freyes_!~freyes@190.215.164.124] has joined #openstack-101
+<br />
+<a href="#02:11:36" name="02:11:36" class="time">[02:11:36]</a> -!- <span class="quit">esker</span> has quit []
+<br />
+<a href="#02:11:55" name="02:11:55" class="time">[02:11:55]</a> -!- <span class="join">esker</span> [esker!~esker@198.95.226.236] has joined #openstack-101
+<br />
+<a href="#02:17:27" name="02:17:27" class="time">[02:17:27]</a> -!- <span class="quit">lisaclark1</span> has quit [Quit: Leaving.]
+<br />
+<a href="#02:21:10" name="02:21:10" class="time">[02:21:10]</a> -!- <span class="join">yrabl__</span> [yrabl__!~yrabl@bzq-79-182-10-136.red.bezeqint.net] has joined #openstack-101
+<br />
+<a href="#02:23:32" name="02:23:32" class="time">[02:23:32]</a> -!- <span class="join">lisaclark1</span> [lisaclark1!Adium@nat/rackspace/x-hltemnexrhqdrwed] has joined #openstack-101
+<br />
+<a href="#02:25:11" name="02:25:11" class="time">[02:25:11]</a> -!- <span class="quit">yrabl_</span> has quit [Ping timeout: 255 seconds]
+<br />
+<a href="#02:30:27" name="02:30:27" class="time">[02:30:27]</a> -!- <span class="quit">freyes_</span> has quit [Ping timeout: 240 seconds]
+<br />
+<a href="#02:32:48" name="02:32:48" class="time">[02:32:48]</a> -!- <span class="quit">ams0</span> has quit [Ping timeout: 276 seconds]
+<br />
+<a href="#02:35:16" name="02:35:16" class="time">[02:35:16]</a> -!- <span class="quit">bach_</span> has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz…]
+<br />
+<a href="#02:37:19" name="02:37:19" class="time">[02:37:19]</a> -!- <span class="quit">ArxCruz_</span> has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz…]
+<br />
+<a href="#02:37:56" name="02:37:56" class="time">[02:37:56]</a> -!- <span class="join">ams0</span> [ams0!~ams0@bzq-218-90-50.red.bezeqint.net] has joined #openstack-101
+<br />
+<a href="#02:38:10" name="02:38:10" class="time">[02:38:10]</a> -!- <span class="join">bach</span> [bach!~textual@50.56.228.68] has joined #openstack-101
+<br />
+<a href="#02:38:41" name="02:38:41" class="time">[02:38:41]</a> -!- <span class="quit">bach</span> has quit [Client Quit]
+<br />
+<a href="#02:39:37" name="02:39:37" class="time">[02:39:37]</a> -!- <span class="quit">lisaclark1</span> has quit [Quit: Leaving.]
+<br />
+<a href="#02:40:09" name="02:40:09" class="time">[02:40:09]</a> -!- <span class="join">freyes</span> [freyes!~freyes@190.215.164.124] has joined #openstack-101
+<br />
+<a href="#02:45:10" name="02:45:10" class="time">[02:45:10]</a> -!- <span class="quit">tdruiva</span> has quit [Remote host closed the connection]
+<br />
+<a href="#02:47:13" name="02:47:13" class="time">[02:47:13]</a> -!- <span class="quit">ams0</span> has quit [Read error: Connection reset by peer]
+<br />
+<a href="#02:50:08" name="02:50:08" class="time">[02:50:08]</a> -!- <span class="join">lisaclark1</span> [lisaclark1!~Adium@50.56.228.68] has joined #openstack-101
+<br />
+<a href="#02:54:09" name="02:54:09" class="time">[02:54:09]</a> -!- <span class="join">ams0</span> [ams0!~ams0@bzq-218-90-50.red.bezeqint.net] has joined #openstack-101
+<br />
+<a href="#02:56:02" name="02:56:02" class="time">[02:56:02]</a> -!- <span class="quit">caleb_</span> has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz…]
+<br />
+<a href="#02:56:16" name="02:56:16" class="time">[02:56:16]</a> -!- <span class="quit">zenoway</span> has quit [Remote host closed the connection]
+<br />
+<a href="#02:56:50" name="02:56:50" class="time">[02:56:50]</a> -!- <span class="join">zenoway</span> [zenoway!~zenoway@46.39.46.194] has joined #openstack-101
+<br />
+<a href="#03:00:23" name="03:00:23" class="time">[03:00:23]</a> -!- <span class="join">caleb_</span> [caleb_!~textual@50.56.228.68] has joined #openstack-101
+<br />
+<a href="#03:01:23" name="03:01:23" class="time">[03:01:23]</a> -!- <span class="quit">zenoway</span> has quit [Ping timeout: 255 seconds]
+<br />
+<a href="#03:13:49" name="03:13:49" class="time">[03:13:49]</a> -!- <span class="quit">cagrev</span> has quit [Read error: No route to host]
+<br />
+<a href="#03:14:12" name="03:14:12" class="time">[03:14:12]</a> -!- <span class="join">cagrev</span> [cagrev!cagrev@nat/ibm/x-yxyzhwkiltefxjic] has joined #openstack-101
+<br />
+<a href="#03:14:36" name="03:14:36" class="time">[03:14:36]</a> -!- <span class="quit">cagrev</span> has quit [Read error: Connection reset by peer]
+<br />
+<a href="#03:15:21" name="03:15:21" class="time">[03:15:21]</a> -!- <span class="join">cagrev</span> [cagrev!cagrev@nat/ibm/x-frvmogwbzagwlobj] has joined #openstack-101
+<br />
+<a href="#03:16:48" name="03:16:48" class="time">[03:16:48]</a> -!- <span class="quit">ams0</span> has quit [Read error: Connection reset by peer]
+<br />
+<a href="#03:21:15" name="03:21:15" class="time">[03:21:15]</a> -!- <span class="join">ams0</span> [ams0!~ams0@bzq-218-90-50.red.bezeqint.net] has joined #openstack-101
+<br />
+<a href="#03:22:05" name="03:22:05" class="time">[03:22:05]</a> -!- <span class="join">bach</span> [bach!~textual@50.56.228.68] has joined #openstack-101
+<br />
+<a href="#03:34:47" name="03:34:47" class="time">[03:34:47]</a> -!- <span class="quit">jckasper</span> has quit [Ping timeout: 240 seconds]
+<br />
+<a href="#03:38:24" name="03:38:24" class="time">[03:38:24]</a> -!- <span class="quit">sgordon</span> has quit [Ping timeout: 252 seconds]
+<br />
+<a href="#03:41:17" name="03:41:17" class="time">[03:41:17]</a> -!- <span class="quit">bach</span> has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz…]
+<br />
+<a href="#03:46:55" name="03:46:55" class="time">[03:46:55]</a> -!- <span class="quit">IlyaE</span> has quit [Quit: Computer has gone to sleep.]
+<br />
+<a href="#03:52:50" name="03:52:50" class="time">[03:52:50]</a> -!- <span class="quit">kevinconway</span> has quit [Quit: kevinconway]
+<br />
+<a href="#03:55:21" name="03:55:21" class="time">[03:55:21]</a> -!- <span class="quit">ams0</span> has quit [Read error: Connection reset by peer]
+<br />
+<a href="#03:56:57" name="03:56:57" class="time">[03:56:57]</a> -!- <span class="quit">caleb_</span> has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz…]
+<br />
+<a href="#04:01:30" name="04:01:30" class="time">[04:01:30]</a> -!- <span class="join">ams0</span> [ams0!~ams0@bzq-218-90-50.red.bezeqint.net] has joined #openstack-101
+<br />
+<a href="#04:01:51" name="04:01:51" class="time">[04:01:51]</a> -!- <span class="quit">mwagner_</span> has quit [Ping timeout: 276 seconds]
+<br />
+<a href="#04:05:21" name="04:05:21" class="time">[04:05:21]</a> -!- <span class="join">bach</span> [bach!~textual@50.56.228.68] has joined #openstack-101
+<br />
+<a href="#04:10:36" name="04:10:36" class="time">[04:10:36]</a> -!- <span class="join">TravT</span> [TravT!TravT@nat/hp/x-koftboitcoyaysgr] has joined #openstack-101
+<br />
+<a href="#04:10:55" name="04:10:55" class="time">[04:10:55]</a> -!- <span class="quit">TravT</span> has quit [Client Quit]
+<br />
+<a href="#04:17:11" name="04:17:11" class="time">[04:17:11]</a> -!- <span class="part">doug-fish</span> [doug-fish!drfish@nat/ibm/x-gcjegjohebbgotbf] has parted #openstack-101
+<br />
+<a href="#04:22:02" name="04:22:02" class="time">[04:22:02]</a> -!- <span class="join">IlyaE</span> [IlyaE!~ilyae@12.164.168.117] has joined #openstack-101
+<br />
+<a href="#04:22:42" name="04:22:42" class="time">[04:22:42]</a> -!- <span class="quit">overlayer</span> has quit [Quit: Leaving]
+<br />
+<a href="#04:23:30" name="04:23:30" class="time">[04:23:30]</a> -!- <span class="join">sgordon</span> [sgordon!~NaN@redhat/sgordon] has joined #openstack-101
+<br />
+<a href="#04:25:05" name="04:25:05" class="time">[04:25:05]</a> -!- <span class="quit">lisaclark1</span> has quit [Quit: Leaving.]
+<br />
+<a href="#04:30:50" name="04:30:50" class="time">[04:30:50]</a> -!- <span class="quit">bach</span> has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz…]
+<br />
+<a href="#04:33:40" name="04:33:40" class="time">[04:33:40]</a> -!- <span class="join">bach</span> [bach!~textual@50.56.228.68] has joined #openstack-101
+<br />
+<a href="#04:34:40" name="04:34:40" class="time">[04:34:40]</a> -!- <span class="join">jwang_</span> [jwang_!~jwang@198.54.169.4] has joined #openstack-101
+<br />
+<a href="#04:34:56" name="04:34:56" class="time">[04:34:56]</a> -!- <span class="quit">bach</span> has quit [Client Quit]
+<br />
+<a href="#04:43:59" name="04:43:59" class="time">[04:43:59]</a> -!- <span class="quit">sayan</span> has quit [Remote host closed the connection]
+<br />
+<a href="#04:50:58" name="04:50:58" class="time">[04:50:58]</a> -!- <span class="quit">IlyaE</span> has quit [Quit: Computer has gone to sleep.]
+<br />
+<a href="#04:51:45" name="04:51:45" class="time">[04:51:45]</a> -!- <span class="join">tdruiva</span> [tdruiva!~tdruiva@2804:0:10:5::cafa] has joined #openstack-101
+<br />
+<a href="#05:00:01" name="05:00:01" class="time">[05:00:01]</a> -!- <span class="quit">tdruiva</span> has quit [Ping timeout: 246 seconds]
+<br />
+<a href="#05:01:40" name="05:01:40" class="time">[05:01:40]</a> -!- <span class="join">bach</span> [bach!~textual@50.56.228.68] has joined #openstack-101
+<br />
+<a href="#05:01:48" name="05:01:48" class="time">[05:01:48]</a> -!- <span class="join">tdruiva</span> [tdruiva!~tdruiva@200.238.1.1] has joined #openstack-101
+<br />
+<a href="#05:11:08" name="05:11:08" class="time">[05:11:08]</a> -!- <span class="quit">bach</span> has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz…]
+<br />
+<a href="#05:14:22" name="05:14:22" class="time">[05:14:22]</a> <span class="nick">aslaen</span> is now known as <span class="nick">jruels</span>
+<br />
+<a href="#05:14:30" name="05:14:30" class="time">[05:14:30]</a> <span class="nick">jruels</span> is now known as <span class="nick">aslaen</span>
+<br />
+<a href="#05:28:57" name="05:28:57" class="time">[05:28:57]</a> -!- <span class="quit">cagrev</span> has quit [Ping timeout: 276 seconds]
+<br />
+<a href="#05:33:01" name="05:33:01" class="time">[05:33:01]</a> -!- <span class="join">caleb_</span> [caleb_!~textual@cpe-66-69-8-157.satx.res.rr.com] has joined #openstack-101
+<br />
+<a href="#05:33:17" name="05:33:17" class="time">[05:33:17]</a> -!- <span class="join">IlyaE</span> [IlyaE!~ilyae@76-218-13-107.lightspeed.sntcca.sbcglobal.net] has joined #openstack-101
+<br />
+<a href="#05:33:37" name="05:33:37" class="time">[05:33:37]</a> -!- <span class="join">mwagner_</span> [mwagner_!~mwagner@c-75-67-220-153.hsd1.nh.comcast.net] has joined #openstack-101
+<br />
+<a href="#05:46:26" name="05:46:26" class="time">[05:46:26]</a> -!- <span class="quit">tdruiva</span> has quit [Remote host closed the connection]
+<br />
+<a href="#05:58:17" name="05:58:17" class="time">[05:58:17]</a> -!- <span class="quit">ArcTanSusan</span> has quit [Quit: ArcTanSusan]
+<br />
+<a href="#06:03:17" name="06:03:17" class="time">[06:03:17]</a> -!- <span class="join">ArcTanSusan</span> [ArcTanSusan!~susantan@c-50-184-42-188.hsd1.ca.comcast.net] has joined #openstack-101
+<br />
+<a href="#06:06:21" name="06:06:21" class="time">[06:06:21]</a> -!- <span class="quit">ChristianAkerblo</span> has quit [Ping timeout: 240 seconds]
+<br />
+<a href="#06:07:36" name="06:07:36" class="time">[06:07:36]</a> -!- <span class="quit">fandi</span> has quit [Remote host closed the connection]
+<br />
+<a href="#06:20:39" name="06:20:39" class="time">[06:20:39]</a> -!- <span class="join">tdruiva</span> [tdruiva!~tdruiva@2804:0:10:5::cafa] has joined #openstack-101
+<br />
+<a href="#06:26:12" name="06:26:12" class="time">[06:26:12]</a> -!- <span class="quit">rbowen</span> has quit [Quit: Leaving]
+<br />
+<a href="#06:26:21" name="06:26:21" class="time">[06:26:21]</a> -!- <span class="quit">reed</span> has quit [Ping timeout: 265 seconds]
+<br />
+<a href="#06:32:11" name="06:32:11" class="time">[06:32:11]</a> -!- <span class="quit">arnaud__</span> has quit [Ping timeout: 240 seconds]
+<br />
+<a href="#06:33:55" name="06:33:55" class="time">[06:33:55]</a> -!- <span class="quit">ArcTanSusan</span> has quit [Quit: ArcTanSusan]
+<br />
+<a href="#06:37:51" name="06:37:51" class="time">[06:37:51]</a> -!- <span class="quit">notmyname</span> has quit [Ping timeout: 240 seconds]
+<br />
+<a href="#06:41:17" name="06:41:17" class="time">[06:41:17]</a> -!- <span class="join">notmyname</span> [notmyname!me@209.114.32.132] has joined #openstack-101
+<br />
+<a href="#07:00:00" name="07:00:00" class="time">[07:00:00]</a> -!- <span class="join">tdruiva_</span> [tdruiva_!~tdruiva@2804:0:10:5::cafa] has joined #openstack-101
+<br />
+<a href="#07:00:53" name="07:00:53" class="time">[07:00:53]</a> -!- <span class="quit">tdruiva</span> has quit [Read error: No route to host]
+<br />
+<a href="#07:04:10" name="07:04:10" class="time">[07:04:10]</a> -!- <span class="join">akshaysth</span> [akshaysth!~quassel@CPEbcc8100cf44d-CMbcc8100cf44a.cpe.net.cable.rogers.com] has joined #openstack-101
+<br />
+<a href="#07:08:54" name="07:08:54" class="time">[07:08:54]</a> -!- <span class="quit">bill_az</span> has quit [Ping timeout: 240 seconds]
+<br />
+<a href="#07:17:47" name="07:17:47" class="time">[07:17:47]</a> -!- <span class="join">nosnos</span> [nosnos!~nosnos@124x35x46x12.ap124.ftth.ucom.ne.jp] has joined #openstack-101
+<br />
+<a href="#07:18:11" name="07:18:11" class="time">[07:18:11]</a> -!- <span class="part">harubelle</span> [harubelle!3d732448@gateway/web/freenode/ip.61.115.36.72] has parted #openstack-101
+<br />
+<a href="#07:29:10" name="07:29:10" class="time">[07:29:10]</a> -!- <span class="quit">notmyname</span> has quit [Quit: Frog blast the vent core!]
+<br />
+<a href="#07:29:23" name="07:29:23" class="time">[07:29:23]</a> -!- <span class="join">notmyname</span> [notmyname!me@not.mn] has joined #openstack-101
+<br />
+<a href="#07:29:33" name="07:29:33" class="time">[07:29:33]</a> -!- <span class="quit">vkmc</span> has quit [Quit: Leaving]
+<br />
+<a href="#07:42:03" name="07:42:03" class="time">[07:42:03]</a> -!- <span class="join">intLabs_</span> [intLabs_!~user@cpc7-sgyl34-2-0-cust914.sgyl.cable.virginm.net] has joined #openstack-101
+<br />
+<a href="#07:43:26" name="07:43:26" class="time">[07:43:26]</a> -!- <span class="quit">intLabs_</span> has quit [Remote host closed the connection]
+<br />
+<a href="#07:43:35" name="07:43:35" class="time">[07:43:35]</a> -!- <span class="join">ArcTanSusan</span> [ArcTanSusan!~susantan@c-50-136-229-251.hsd1.ca.comcast.net] has joined #openstack-101
+<br />
+<a href="#07:44:08" name="07:44:08" class="time">[07:44:08]</a> -!- <span class="quit">ArcTanSusan</span> has quit [Client Quit]
+<br />
+<a href="#08:06:41" name="08:06:41" class="time">[08:06:41]</a> -!- <span class="join">intLabs</span> [intLabs!~user@cpc7-sgyl34-2-0-cust914.sgyl.cable.virginm.net] has joined #openstack-101
+<br />
+<a href="#08:07:56" name="08:07:56" class="time">[08:07:56]</a> -!- <span class="quit">intLabs</span> has quit [Remote host closed the connection]
+<br />
+<a href="#08:08:40" name="08:08:40" class="time">[08:08:40]</a> -!- <span class="quit">IlyaE</span> has quit [Quit: Computer has gone to sleep.]
+<br />
+<a href="#08:18:19" name="08:18:19" class="time">[08:18:19]</a> -!- <span class="join">IlyaE</span> [IlyaE!~ilyae@76-218-13-107.lightspeed.sntcca.sbcglobal.net] has joined #openstack-101
+<br />
+<a href="#08:30:43" name="08:30:43" class="time">[08:30:43]</a> -!- <span class="join">resker</span> [resker!~esker@107-216-40-146.lightspeed.austtx.sbcglobal.net] has joined #openstack-101
+<br />
+<a href="#08:30:46" name="08:30:46" class="time">[08:30:46]</a> -!- <span class="quit">resker</span> has quit [Remote host closed the connection]
+<br />
+<a href="#08:34:07" name="08:34:07" class="time">[08:34:07]</a> -!- <span class="quit">esker</span> has quit [Ping timeout: 240 seconds]
+<br />
+<a href="#08:35:26" name="08:35:26" class="time">[08:35:26]</a> -!- <span class="join">Abhi_</span> [Abhi_!79f16a49@gateway/web/freenode/ip.121.241.106.73] has joined #openstack-101
+<br />
+<a href="#08:39:48" name="08:39:48" class="time">[08:39:48]</a> -!- <span class="quit">IlyaE</span> has quit [Quit: Computer has gone to sleep.]
+<br />
+<a href="#08:41:58" name="08:41:58" class="time">[08:41:58]</a> -!- <span class="quit">tdruiva_</span> has quit [Remote host closed the connection]
+<br />
+<a href="#08:55:12" name="08:55:12" class="time">[08:55:12]</a> -!- <span class="join">jckasper</span> [jckasper!~jckasper@67-5-28-201.rstr.qwest.net] has joined #openstack-101
+<br />
+<a href="#08:56:29" name="08:56:29" class="time">[08:56:29]</a> -!- <span class="quit">jckasper</span> has quit [Read error: Connection reset by peer]
+<br />
+<a href="#08:56:33" name="08:56:33" class="time">[08:56:33]</a> -!- <span class="join">jckasper_</span> [jckasper_!~jckasper@67-5-28-201.rstr.qwest.net] has joined #openstack-101
+<br />
+<a href="#08:58:56" name="08:58:56" class="time">[08:58:56]</a> -!- <span class="quit">sgordon</span> has quit [Ping timeout: 255 seconds]
+<br />
+<a href="#08:59:00" name="08:59:00" class="time">[08:59:00]</a> -!- <span class="quit">jckasper_</span> has quit [Read error: Connection reset by peer]
+<br />
+<a href="#08:59:19" name="08:59:19" class="time">[08:59:19]</a> -!- <span class="join">jckasper</span> [jckasper!~jckasper@67-5-28-201.rstr.qwest.net] has joined #openstack-101
+<br />
+<a href="#09:05:21" name="09:05:21" class="time">[09:05:21]</a> -!- <span class="join">reed</span> [reed!~reed@fsf/member/reed] has joined #openstack-101
+<br />
+<a href="#09:10:59" name="09:10:59" class="time">[09:10:59]</a> -!- <span class="join">renlt</span> [renlt!~renlt@220.248.0.154] has joined #openstack-101
+<br />
+<a href="#09:17:41" name="09:17:41" class="time">[09:17:41]</a> -!- <span class="quit">nosnos</span> has quit [Remote host closed the connection]
+<br />
+<a href="#09:17:56" name="09:17:56" class="time">[09:17:56]</a> -!- <span class="quit">reed</span> has quit [Ping timeout: 265 seconds]
+<br />
+<a href="#09:48:42" name="09:48:42" class="time">[09:48:42]</a> -!- <span class="join">tdruiva</span> [tdruiva!~tdruiva@201.37.164.68] has joined #openstack-101
+<br />
+<a href="#09:52:47" name="09:52:47" class="time">[09:52:47]</a> -!- <span class="quit">caleb_</span> has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz…]
+<br />
+<a href="#09:53:34" name="09:53:34" class="time">[09:53:34]</a> -!- <span class="quit">freyes</span> has quit [Ping timeout: 250 seconds]
+<br />
+<a href="#09:55:15" name="09:55:15" class="time">[09:55:15]</a> -!- <span class="join">sayan</span> [sayan!~sayan@fedora/sayan] has joined #openstack-101
+<br />
+<a href="#09:55:15" name="09:55:15" class="time">[09:55:15]</a> -!- <span class="quit">ams0</span> has quit [Read error: Connection reset by peer]
+<br />
+<a href="#10:02:37" name="10:02:37" class="time">[10:02:37]</a> -!- <span class="join">ams0</span> [ams0!~ams0@bzq-218-90-50.red.bezeqint.net] has joined #openstack-101
+<br />
+<a href="#10:12:12" name="10:12:12" class="time">[10:12:12]</a> -!- <span class="quit">sayan</span> has quit [Ping timeout: 250 seconds]
+<br />
+<a href="#10:24:54" name="10:24:54" class="time">[10:24:54]</a> -!- <span class="join">chandan_kumar</span> [chandan_kumar!Chandan_ku@nat/redhat/x-ybbsaobjyfsqvbfk] has joined #openstack-101
+<br />
+<a href="#10:25:43" name="10:25:43" class="time">[10:25:43]</a> -!- <span class="join">zenoway</span> [zenoway!~zenoway@46.39.36.133] has joined #openstack-101
+<br />
+<a href="#10:25:59" name="10:25:59" class="time">[10:25:59]</a> -!- <span class="join">nosnos</span> [nosnos!~nosnos@124x35x46x12.ap124.ftth.ucom.ne.jp] has joined #openstack-101
+<br />
+<a href="#10:29:31" name="10:29:31" class="time">[10:29:31]</a> -!- <span class="quit">renlt</span> has quit [Quit: 离开]
+<br />
+<a href="#10:34:23" name="10:34:23" class="time">[10:34:23]</a> -!- <span class="join">anand</span> [anand!3d0c07e5@gateway/web/freenode/ip.61.12.7.229] has joined #openstack-101
+<br />
+<a href="#10:34:42" name="10:34:42" class="time">[10:34:42]</a> <span class="nick">anand</span> is now known as <span class="nick">anand_ts</span>
+<br />
+<a href="#10:36:20" name="10:36:20" class="time">[10:36:20]</a> -!- <span class="quit">zenoway</span> has quit [Remote host closed the connection]
+<br />
+<a href="#10:36:57" name="10:36:57" class="time">[10:36:57]</a> -!- <span class="join">zenoway</span> [zenoway!~zenoway@46.39.36.133] has joined #openstack-101
+<br />
+<a href="#10:41:33" name="10:41:33" class="time">[10:41:33]</a> -!- <span class="quit">zenoway</span> has quit [Ping timeout: 255 seconds]
+<br />
+<a href="#10:49:06" name="10:49:06" class="time">[10:49:06]</a> -!- <span class="join">ArcTanSusan</span> [ArcTanSusan!~susantan@c-50-136-229-251.hsd1.ca.comcast.net] has joined #openstack-101
+<br />
+<a href="#10:53:20" name="10:53:20" class="time">[10:53:20]</a> -!- <span class="join">bach</span> [bach!~textual@76-233-28-255.lightspeed.snantx.sbcglobal.net] has joined #openstack-101
+<br />
+<a href="#10:56:43" name="10:56:43" class="time">[10:56:43]</a> -!- <span class="join">IlyaE</span> [IlyaE!~ilyae@76-218-13-107.lightspeed.sntcca.sbcglobal.net] has joined #openstack-101
+<br />
+<a href="#10:57:09" name="10:57:09" class="time">[10:57:09]</a> -!- <span class="quit">ams0</span> has quit [Remote host closed the connection]
+<br />
+<a href="#10:57:41" name="10:57:41" class="time">[10:57:41]</a> -!- <span class="join">ams0</span> [ams0!~ams0@bzq-218-90-50.red.bezeqint.net] has joined #openstack-101
+<br />
+<a href="#10:59:39" name="10:59:39" class="time">[10:59:39]</a> -!- <span class="quit">ams0</span> has quit [Read error: Connection reset by peer]
+<br />
+<a href="#11:00:10" name="11:00:10" class="time">[11:00:10]</a> -!- <span class="join">zenoway</span> [zenoway!~zenoway@46.39.36.133] has joined #openstack-101
+<br />
+<a href="#11:01:23" name="11:01:23" class="time">[11:01:23]</a> -!- <span class="join">sayan</span> [sayan!~sayan@fedora/sayan] has joined #openstack-101
+<br />
+<a href="#11:05:51" name="11:05:51" class="time">[11:05:51]</a> -!- <span class="quit">IlyaE</span> has quit [Quit: Computer has gone to sleep.]
+<br />
+<a href="#11:08:24" name="11:08:24" class="time">[11:08:24]</a> -!- <span class="join">jcoufal</span> [jcoufal!~jcoufal@ip-78-45-120-202.net.upcbroadband.cz] has joined #openstack-101
+<br />
+<a href="#11:10:33" name="11:10:33" class="time">[11:10:33]</a> -!- <span class="join">WaltNik</span> [WaltNik!WalterNikl@nat/ibm/x-merfcxjkmpkluxbd] has joined #openstack-101
+<br />
+<a href="#11:18:07" name="11:18:07" class="time">[11:18:07]</a> -!- <span class="quit">Abhi_</span> has quit [Quit: Page closed]
+<br />
+<a href="#11:18:26" name="11:18:26" class="time">[11:18:26]</a> -!- <span class="join">Abhi_</span> [Abhi_!79f16a49@gateway/web/freenode/ip.121.241.106.73] has joined #openstack-101
+<br />
+<a href="#11:18:46" name="11:18:46" class="time">[11:18:46]</a> -!- <span class="quit">sayan</span> has quit [Ping timeout: 258 seconds]
+<br />
+<a href="#11:19:10" name="11:19:10" class="time">[11:19:10]</a> -!- <span class="quit">yrabl__</span> has quit [Ping timeout: 258 seconds]
+<br />
+<a href="#11:21:23" name="11:21:23" class="time">[11:21:23]</a> -!- <span class="join">sayan</span> [sayan!~sayan@fedora/sayan] has joined #openstack-101
+<br />
+<a href="#11:23:20" name="11:23:20" class="time">[11:23:20]</a> -!- <span class="quit">bach</span> has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz…]
+<br />
+<a href="#11:32:01" name="11:32:01" class="time">[11:32:01]</a> -!- <span class="join">ThoughtWorks_</span> [ThoughtWorks_!~ThoughtWo@14.140.219.22] has joined #openstack-101
+<br />
+<a href="#11:32:15" name="11:32:15" class="time">[11:32:15]</a> -!- <span class="join">bach</span> [bach!~textual@76-233-28-255.lightspeed.snantx.sbcglobal.net] has joined #openstack-101
+<br />
+<a href="#11:34:40" name="11:34:40" class="time">[11:34:40]</a> -!- <span class="quit">ThoughtWorks_</span> has quit [Client Quit]
+<br />
+<a href="#11:34:59" name="11:34:59" class="time">[11:34:59]</a> -!- <span class="join">ThoughtWorks_</span> [ThoughtWorks_!~ThoughtWo@14.140.219.22] has joined #openstack-101
+<br />
+<a href="#11:35:51" name="11:35:51" class="time">[11:35:51]</a> -!- <span class="quit">ThoughtWorks_</span> has quit [Client Quit]
+<br />
+<a href="#11:37:23" name="11:37:23" class="time">[11:37:23]</a> <span class="nick">pradipta_away</span> is now known as <span class="nick">pradipta</span>
+<br />
+<a href="#11:42:15" name="11:42:15" class="time">[11:42:15]</a> -!- <span class="join">nlevinki</span> [nlevinki!nlevinki@nat/redhat/x-qwmyaaahmbzbmwym] has joined #openstack-101
+<br />
+<a href="#11:49:42" name="11:49:42" class="time">[11:49:42]</a> -!- <span class="join">ams0</span> [ams0!~ams0@bzq-218-90-50.red.bezeqint.net] has joined #openstack-101
+<br />
+</body>
+</html>

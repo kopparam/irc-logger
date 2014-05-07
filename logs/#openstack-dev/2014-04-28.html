@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>#openstack-dev | Logs for 2014-04-28</title>
+    <style type="text/css">
+        body {
+            background-color: #F8F8FF;
+            font-family: Fixed, monospace;
+            font-size: 13px;
+        }
+        h1 {
+            font-family: sans-serif;
+            font-size: 24px;
+            text-align: center;
+        }
+        a, .time {
+            color: #525552;
+            text-decoration: none;
+        }
+        a:hover, .time:hover { text-decoration: underline; }
+        .person { color: #DD1144; }
+        .join, .part, .quit, .kick, .mode, .topic, .nick { color: #42558C; }
+        .notice { color: #AE768C; }
+    </style>
+  </head>
+  <body>
+  <h1>#openstack-dev | Logs for 2014-04-28</h1>
+  <a href="..">Back</a><br />
+<a href="#05:31:05" name="05:31:05" class="time">[05:31:05]</a> -!- <span class="join">ThoughtWorks</span> [ThoughtWorks!~ThoughtWo@14.140.219.22] has joined #openstack-dev
+<br />
+<a href="#05:31:21" name="05:31:21" class="time">[05:31:21]</a> -!- <span class="quit">chandan_kumar</span> has quit [Ping timeout: 252 seconds]
+<br />
+<a href="#05:31:53" name="05:31:53" class="time">[05:31:53]</a> -!- <span class="quit">Mandell</span> has quit [Remote host closed the connection]
+<br />
+<a href="#05:31:53" name="05:31:53" class="time">[05:31:53]</a> -!- <span class="quit">aswadrangnekar</span> has quit [Ping timeout: 252 seconds]
+<br />
+<a href="#05:32:07" name="05:32:07" class="time">[05:32:07]</a> -!- <span class="join">rohitk</span> [rohitk!~rohitk@49.32.0.22] has joined #openstack-dev
+<br />
+<a href="#05:33:52" name="05:33:52" class="time">[05:33:52]</a> <span class="nick">zhiyan_</span> is now known as <span class="nick">zhiyan</span>
+<br />
+<a href="#05:35:26" name="05:35:26" class="time">[05:35:26]</a> -!- <span class="quit">Kashyap_</span> has quit [Quit: My MacBook Pro has gone to sleep. ZZZzzz…]
+<br />
+<a href="#05:36:00" name="05:36:00" class="time">[05:36:00]</a> -!- <span class="join">pschaef</span> [pschaef!pschaef@nat/ibm/x-uwkjpvmxyazdsaqj] has joined #openstack-dev
+<br />
+<a href="#05:41:09" name="05:41:09" class="time">[05:41:09]</a> -!- <span class="join">gokrokve</span> [gokrokve!~gokrokve@c-24-6-222-8.hsd1.ca.comcast.net] has joined #openstack-dev
+<br />
+<a href="#05:42:18" name="05:42:18" class="time">[05:42:18]</a> -!- <span class="quit">rohitk</span> has quit [Ping timeout: 240 seconds]
+<br />
+<a href="#05:42:57" name="05:42:57" class="time">[05:42:57]</a> -!- <span class="join">chandan_kumar</span> [chandan_kumar!Chandan_ku@nat/redhat/x-mrefykpgcwdxmxlu] has joined #openstack-dev
+<br />
+<a href="#05:44:13" name="05:44:13" class="time">[05:44:13]</a> -!- <span class="join">aswadrangnekar</span> [aswadrangnekar!~bolt@122.170.43.196] has joined #openstack-dev
+<br />
+<a href="#05:44:18" name="05:44:18" class="time">[05:44:18]</a> -!- <span class="join">jprovazn</span> [jprovazn!~jprovazn@ip-94-112-2-110.net.upcbroadband.cz] has joined #openstack-dev
+<br />
+<a href="#05:46:24" name="05:46:24" class="time">[05:46:24]</a> -!- <span class="quit">gokrokve</span> has quit [Ping timeout: 276 seconds]
+<br />
+<a href="#05:47:06" name="05:47:06" class="time">[05:47:06]</a> -!- <span class="join">Mandell</span> [Mandell!~mandell@c-24-4-30-183.hsd1.ca.comcast.net] has joined #openstack-dev
+<br />
+<a href="#05:48:31" name="05:48:31" class="time">[05:48:31]</a> -!- <span class="join">jasdeepH</span> [jasdeepH!~jasdeepH@173-228-94-165.dsl.dynamic.sonic.net] has joined #openstack-dev
+<br />
+<a href="#05:51:35" name="05:51:35" class="time">[05:51:35]</a> -!- <span class="join">lazy_prince</span> [lazy_prince!killer_pri@nat/hp/x-orwpnbrhjfjnupsg] has joined #openstack-dev
+<br />
+<a href="#09:24:39" name="09:24:39" class="time">[09:24:39]</a> -!- <span class="join">ThoughtWorks</span> [ThoughtWorks!~ThoughtWo@14.140.219.22] has joined #openstack-dev
+<br />
+<a href="#09:25:58" name="09:25:58" class="time">[09:25:58]</a> -!- <span class="join">kolesovdv</span> [kolesovdv!~dmitry@77.35.205.179] has joined #openstack-dev
+<br />
+<a href="#09:26:25" name="09:26:25" class="time">[09:26:25]</a> -!- <span class="join">buzztroll</span> [buzztroll!~buzztroll@cpe-72-130-190-49.hawaii.res.rr.com] has joined #openstack-dev
+<br />
+<a href="#09:29:55" name="09:29:55" class="time">[09:29:55]</a> <span class="nick">morganfainberg</span> is now known as <span class="nick">morganfainberg_Z</span>
+<br />
+<a href="#09:30:03" name="09:30:03" class="time">[09:30:03]</a> -!- <span class="quit">paragan</span> has quit [Ping timeout: 252 seconds]
+<br />
+<a href="#09:31:22" name="09:31:22" class="time">[09:31:22]</a> -!- <span class="join">mkollaro1</span> [mkollaro1!mkollaro@nat/redhat/x-bvztskmgmmrknaet] has joined #openstack-dev
+<br />
+<a href="#09:31:23" name="09:31:23" class="time">[09:31:23]</a> -!- <span class="quit">mkollaro</span> has quit [Disconnected by services]
+<br />
+<a href="#09:33:14" name="09:33:14" class="time">[09:33:14]</a> -!- <span class="join">rohitk</span> [rohitk!~rohitk@49.32.0.6] has joined #openstack-dev
+<br />
+<a href="#09:33:30" name="09:33:30" class="time">[09:33:30]</a> -!- <span class="join">mkollaro</span> [mkollaro!mkollaro@nat/redhat/x-skmpysvgmygtxxle] has joined #openstack-dev
+<br />
+<a href="#09:34:00" name="09:34:00" class="time">[09:34:00]</a> -!- <span class="quit">pradeep</span> has quit [Ping timeout: 240 seconds]
+<br />
+<a href="#09:34:06" name="09:34:06" class="time">[09:34:06]</a> -!- <span class="join">pradeep</span> [pradeep!~sp@122.248.163.2] has joined #openstack-dev
+<br />
+<a href="#09:36:04" name="09:36:04" class="time">[09:36:04]</a> -!- <span class="quit">evgenyf</span> has quit [Ping timeout: 246 seconds]
+<br />
+<a href="#09:36:36" name="09:36:36" class="time">[09:36:36]</a> -!- <span class="quit">mkollaro1</span> has quit [Ping timeout: 265 seconds]
+<br />
+<a href="#11:29:54" name="11:29:54" class="time">[11:29:54]</a> -!- <span class="join">ThoughtWorks</span> [ThoughtWorks!~ThoughtWo@14.140.219.22] has joined #openstack-dev
+<br />
+<a href="#11:30:15" name="11:30:15" class="time">[11:30:15]</a> -!- <span class="join">Celm</span> [Celm!~celm@c-50-184-223-16.hsd1.ca.comcast.net] has joined #openstack-dev
+<br />
+<a href="#11:30:50" name="11:30:50" class="time">[11:30:50]</a> -!- <span class="quit">Celm</span> has quit [Remote host closed the connection]
+<br />
+<a href="#11:34:54" name="11:34:54" class="time">[11:34:54]</a> -!- <span class="join">ThoughtWorks</span> [ThoughtWorks!~ThoughtWo@14.140.219.22] has joined #openstack-dev
+<br />
+<a href="#11:34:59" name="11:34:59" class="time">[11:34:59]</a> -!- <span class="join">asalkeld</span> [asalkeld!~angus@CPE-123-211-52-132.lnse3.cha.bigpond.net.au] has joined #openstack-dev
+<br />
+<a href="#11:35:14" name="11:35:14" class="time">[11:35:14]</a> -!- <span class="join">Celm</span> [Celm!~celm@c-50-184-223-16.hsd1.ca.comcast.net] has joined #openstack-dev
+<br />
+<a href="#11:35:50" name="11:35:50" class="time">[11:35:50]</a> -!- <span class="join">haomaiw__</span> [haomaiw__!~haomaiwan@li634-52.members.linode.com] has joined #openstack-dev
+<br />
+<a href="#11:36:05" name="11:36:05" class="time">[11:36:05]</a> -!- <span class="quit">Celm</span> has quit [Remote host closed the connection]
+<br />
+<a href="#11:36:44" name="11:36:44" class="time">[11:36:44]</a> -!- <span class="join">ThoughtWorks</span> [ThoughtWorks!~ThoughtWo@14.140.219.22] has joined #openstack-dev
+<br />
+<a href="#11:37:14" name="11:37:14" class="time">[11:37:14]</a> -!- <span class="join">ThoughtWorks_</span> [ThoughtWorks_!~ThoughtWo@14.140.219.22] has joined #openstack-dev
+<br />
+<a href="#11:37:14" name="11:37:14" class="time">[11:37:14]</a> -!- <span class="join">ThoughtWorks_</span> [ThoughtWorks_!~ThoughtWo@14.140.219.22] has joined #openstack-dev
+<br />
+<a href="#11:37:22" name="11:37:22" class="time">[11:37:22]</a> -!- <span class="quit">Celm</span> has quit [Remote host closed the connection]
+<br />
+<a href="#11:37:22" name="11:37:22" class="time">[11:37:22]</a> -!- <span class="quit">Celm</span> has quit [Remote host closed the connection]
+<br />
+<a href="#11:37:54" name="11:37:54" class="time">[11:37:54]</a> -!- <span class="join">Celm</span> [Celm!~celm@c-50-184-223-16.hsd1.ca.comcast.net] has joined #openstack-dev
+<br />
+<a href="#11:37:54" name="11:37:54" class="time">[11:37:54]</a> -!- <span class="join">Celm</span> [Celm!~celm@c-50-184-223-16.hsd1.ca.comcast.net] has joined #openstack-dev
+<br />
+<a href="#11:37:57" name="11:37:57" class="time">[11:37:57]</a> -!- <span class="quit">ThoughtWorks</span> has quit [Remote host closed the connection]
+<br />
+<a href="#11:38:13" name="11:38:13" class="time">[11:38:13]</a> -!- <span class="join">haoma____</span> [haoma____!~haomaiwan@218.71.75.45] has joined #openstack-dev
+<br />
+<a href="#11:39:47" name="11:39:47" class="time">[11:39:47]</a> -!- <span class="join">ThoughtWorks</span> [ThoughtWorks!~ThoughtWo@14.140.219.22] has joined #openstack-dev
+<br />
+<a href="#11:41:55" name="11:41:55" class="time">[11:41:55]</a> -!- <span class="join">ThoughtWorks</span> [ThoughtWorks!~ThoughtWo@14.140.219.22] has joined #openstack-dev
+<br />
+<a href="#11:42:35" name="11:42:35" class="time">[11:42:35]</a> -!- <span class="join">ThoughtWorks</span> [ThoughtWorks!~ThoughtWo@14.140.219.22] has joined #openstack-dev
+<br />
+<a href="#11:42:38" name="11:42:38" class="time">[11:42:38]</a> -!- <span class="quit">Celm</span> has quit [Remote host closed the connection]
+<br />
+<a href="#11:43:31" name="11:43:31" class="time">[11:43:31]</a> -!- <span class="join">Celm</span> [Celm!~celm@c-50-184-223-16.hsd1.ca.comcast.net] has joined #openstack-dev
+<br />
+<a href="#11:43:54" name="11:43:54" class="time">[11:43:54]</a> -!- <span class="quit">akscram</span> has quit [Ping timeout: 276 seconds]
+<br />
+<a href="#11:43:56" name="11:43:56" class="time">[11:43:56]</a> -!- <span class="quit">Celm</span> has quit [Remote host closed the connection]
+<br />
+<a href="#11:43:57" name="11:43:57" class="time">[11:43:57]</a> -!- <span class="join">_neoXsys_</span> [_neoXsys_!~X-Man@42.104.12.86] has joined #openstack-dev
+<br />
+<a href="#11:44:19" name="11:44:19" class="time">[11:44:19]</a> -!- <span class="quit">_neoXsys_</span> has quit [Remote host closed the connection]
+<br />
+<a href="#11:44:36" name="11:44:36" class="time">[11:44:36]</a> -!- <span class="join">Celm</span> [Celm!~celm@c-50-184-223-16.hsd1.ca.comcast.net] has joined #openstack-dev
+<br />
+<a href="#11:44:40" name="11:44:40" class="time">[11:44:40]</a> -!- <span class="join">mkollaro1</span> [mkollaro1!mkollaro@nat/redhat/x-zuysmdffmjuatjuk] has joined #openstack-dev
+<br />
+<a href="#11:44:40" name="11:44:40" class="time">[11:44:40]</a> -!- <span class="join">akscram</span> [akscram!~ash@palevo.sgu.ru] has joined #openstack-dev
+<br />
+<a href="#11:44:40" name="11:44:40" class="time">[11:44:40]</a> -!- <span class="quit">mkollaro</span> has quit [Disconnected by services]
+<br />
+<a href="#11:45:06" name="11:45:06" class="time">[11:45:06]</a> -!- <span class="quit">e0ne</span> has quit [Remote host closed the connection]
+<br />
+<a href="#11:45:08" name="11:45:08" class="time">[11:45:08]</a> -!- <span class="quit">tdruiva</span> has quit [Remote host closed the connection]
+<br />
+<a href="#11:45:23" name="11:45:23" class="time">[11:45:23]</a> -!- <span class="quit">Celm</span> has quit [Read error: Connection reset by peer]
+<br />
+<a href="#11:45:35" name="11:45:35" class="time">[11:45:35]</a> -!- <span class="join">e0ne</span> [e0ne!~e0ne@194.213.110.76] has joined #openstack-dev
+<br />
+<a href="#11:45:48" name="11:45:48" class="time">[11:45:48]</a> -!- <span class="join">Celm</span> [Celm!~celm@c-50-184-223-16.hsd1.ca.comcast.net] has joined #openstack-dev
+<br />
+<a href="#11:46:08" name="11:46:08" class="time">[11:46:08]</a> -!- <span class="join">clayb</span> [clayb!~kvirc@69.191.241.59] has joined #openstack-dev
+<br />
+<a href="#11:46:33" name="11:46:33" class="time">[11:46:33]</a> -!- <span class="quit">Celm</span> has quit [Remote host closed the connection]
+<br />
+<a href="#11:47:08" name="11:47:08" class="time">[11:47:08]</a> -!- <span class="join">ThoughtWorks</span> [ThoughtWorks!~ThoughtWo@14.140.219.22] has joined #openstack-dev
+<br />
+<a href="#11:47:08" name="11:47:08" class="time">[11:47:08]</a> -!- <span class="join">Celm</span> [Celm!~celm@c-50-184-223-16.hsd1.ca.comcast.net] has joined #openstack-dev
+<br />
+<a href="#11:48:10" name="11:48:10" class="time">[11:48:10]</a> -!- <span class="join">ThoughtWorks</span> [ThoughtWorks!~ThoughtWo@14.140.219.22] has joined #openstack-dev
+<br />
+<a href="#12:27:33" name="12:27:33" class="time">[12:27:33]</a> -!- <span class="join">ThoughtWorks</span> [ThoughtWorks!~ThoughtWo@14.140.219.22] has joined #openstack-dev
+<br />
+<a href="#12:27:38" name="12:27:38" class="time">[12:27:38]</a> -!- <span class="quit">Celm</span> has quit [Remote host closed the connection]
+<br />
+<a href="#17:20:38" name="17:20:38" class="time">[17:20:38]</a> -!- <span class="join">ThoughtWorks</span> [ThoughtWorks!~ThoughtWo@122.172.242.201] has joined #openstack-dev
+<br />
+<a href="#17:21:03" name="17:21:03" class="time">[17:21:03]</a> -!- <span class="join">SumitNaiksatam</span> [SumitNaiksatam!~snaiksat@162.223.57.32] has joined #openstack-dev
+<br />
+</body>
+</html>
