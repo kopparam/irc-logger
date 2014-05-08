@@ -392,16 +392,16 @@ class Logbot(SingleServerIRCBot):
                           "%giver%" : nm_to_n(e.source()),
                          })
 
-    def on_nick(self, c, e):
-        old_nick = nm_to_n(e.source())
-        # Only write the event on channels that actually had the user in the channel
-        for chan in self.channels:
-            if old_nick in [x.lstrip('~%&@+') for x in self.channels[chan].users()]:
-                self.write_event("nick", e,
-                             {"%old%" : old_nick,
-                              "%new%" : e.target(),
-                              "%chan%": chan,
-                             })
+    # def on_nick(self, c, e):
+    #     old_nick = nm_to_n(e.source())
+    #     # Only write the event on channels that actually had the user in the channel
+    #     for chan in self.channels:
+    #         if old_nick in [x.lstrip('~%&@+') for x in self.channels[chan].users()]:
+    #             self.write_event("nick", e,
+    #                          {"%old%" : old_nick,
+    #                           "%new%" : e.target(),
+    #                           "%chan%": chan,
+    #                          })
 
     # def on_part(self, c, e):
     #     self.write_event("part", e)
